@@ -15,6 +15,7 @@
 		02313FA42890582600C24D01 /* Funds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02313FA32890582600C24D01 /* Funds.swift */; };
 		023B617928906D01007D6BCD /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B617828906D01007D6BCD /* Converter.swift */; };
 		023B6183289117B4007D6BCD /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B6182289117B4007D6BCD /* EmptyViewController.swift */; };
+		09ABC6D128911B750057E103 /* Actives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABC6D028911B750057E103 /* Actives.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		02313FA32890582600C24D01 /* Funds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funds.swift; sourceTree = "<group>"; };
 		023B617828906D01007D6BCD /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		023B6182289117B4007D6BCD /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmptyViewController.swift; path = "HomeWorkFor2.4Lession(Wallet)/Controllers/EmptyViewController.swift"; sourceTree = SOURCE_ROOT; };
+		09ABC6D028911B750057E103 /* Actives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actives.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				02313FA32890582600C24D01 /* Funds.swift */,
+				09ABC6D028911B750057E103 /* Actives.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02313FA42890582600C24D01 /* Funds.swift in Sources */,
+				09ABC6D128911B750057E103 /* Actives.swift in Sources */,
 				02313F89289052E800C24D01 /* AppDelegate.swift in Sources */,
 				023B6183289117B4007D6BCD /* EmptyViewController.swift in Sources */,
 				023B617928906D01007D6BCD /* Converter.swift in Sources */,
