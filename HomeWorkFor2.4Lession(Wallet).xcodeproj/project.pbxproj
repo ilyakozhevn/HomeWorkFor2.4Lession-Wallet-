@@ -56,15 +56,71 @@
 		02313F87289052E800C24D01 /* HomeWorkFor2.4Lession(Wallet) */ = {
 			isa = PBXGroup;
 			children = (
-				02313F88289052E800C24D01 /* AppDelegate.swift */,
-				02313F8A289052E800C24D01 /* SceneDelegate.swift */,
+				023B61802891143F007D6BCD /* Controllers */,
+				023B617F289113D3007D6BCD /* Views */,
+				023B617B28911216007D6BCD /* Services */,
+				023B617A28911216007D6BCD /* Storyboards */,
 				02313F8C289052E800C24D01 /* ViewController.swift */,
 				02313F8E289052E800C24D01 /* Main.storyboard */,
-				02313F91289052E800C24D01 /* Assets.xcassets */,
 				02313F93289052E800C24D01 /* LaunchScreen.storyboard */,
-				02313F96289052E800C24D01 /* Info.plist */,
+				023B617E28911218007D6BCD /* App */,
+				023B617D28911217007D6BCD /* Resourses */,
+				023B617C28911217007D6BCD /* Model */,
 			);
 			path = "HomeWorkFor2.4Lession(Wallet)";
+			sourceTree = "<group>";
+		};
+		023B617A28911216007D6BCD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		023B617B28911216007D6BCD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		023B617C28911217007D6BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		023B617D28911217007D6BCD /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				02313F91289052E800C24D01 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		023B617E28911218007D6BCD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02313F88289052E800C24D01 /* AppDelegate.swift */,
+				02313F96289052E800C24D01 /* Info.plist */,
+				02313F8A289052E800C24D01 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		023B617F289113D3007D6BCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		023B61802891143F007D6BCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R82749YG66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/Info.plist";
+				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R82749YG66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/Info.plist";
+				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
