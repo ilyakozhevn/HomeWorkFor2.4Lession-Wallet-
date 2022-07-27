@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		02313F89289052E800C24D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02313F88289052E800C24D01 /* AppDelegate.swift */; };
 		02313F8B289052E800C24D01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02313F8A289052E800C24D01 /* SceneDelegate.swift */; };
-		02313F8D289052E800C24D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02313F8C289052E800C24D01 /* ViewController.swift */; };
 		02313F90289052E800C24D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02313F8E289052E800C24D01 /* Main.storyboard */; };
 		02313F92289052E800C24D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02313F91289052E800C24D01 /* Assets.xcassets */; };
 		02313F95289052E800C24D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02313F93289052E800C24D01 /* LaunchScreen.storyboard */; };
+		02313FA42890582600C24D01 /* Funds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02313FA32890582600C24D01 /* Funds.swift */; };
+		023B617928906D01007D6BCD /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023B617828906D01007D6BCD /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02313F85289052E800C24D01 /* HomeWorkFor2.4Lession(Wallet).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWorkFor2.4Lession(Wallet).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02313F88289052E800C24D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02313F8A289052E800C24D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02313F8C289052E800C24D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02313F8F289052E800C24D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02313F91289052E800C24D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02313F94289052E800C24D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02313F96289052E800C24D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02313FA32890582600C24D01 /* Funds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funds.swift; sourceTree = "<group>"; };
+		023B617828906D01007D6BCD /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,72 @@
 		02313F87289052E800C24D01 /* HomeWorkFor2.4Lession(Wallet) */ = {
 			isa = PBXGroup;
 			children = (
-				02313F88289052E800C24D01 /* AppDelegate.swift */,
-				02313F8A289052E800C24D01 /* SceneDelegate.swift */,
-				02313F8C289052E800C24D01 /* ViewController.swift */,
-				02313F8E289052E800C24D01 /* Main.storyboard */,
-				02313F91289052E800C24D01 /* Assets.xcassets */,
-				02313F93289052E800C24D01 /* LaunchScreen.storyboard */,
-				02313F96289052E800C24D01 /* Info.plist */,
+				02313F9D2890531600C24D01 /* Model */,
+				02313FA12890533D00C24D01 /* Views */,
+				02313FA02890533800C24D01 /* Controllers */,
+				02313F9E2890531C00C24D01 /* Resourses */,
+				02313FA22890535D00C24D01 /* Storyboards */,
+				02313F9F2890532800C24D01 /* Services */,
+				02313F9C2890530300C24D01 /* App */,
 			);
 			path = "HomeWorkFor2.4Lession(Wallet)";
+			sourceTree = "<group>";
+		};
+		02313F9C2890530300C24D01 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02313F96289052E800C24D01 /* Info.plist */,
+				02313F88289052E800C24D01 /* AppDelegate.swift */,
+				02313F8A289052E800C24D01 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		02313F9D2890531600C24D01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02313FA32890582600C24D01 /* Funds.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02313F9E2890531C00C24D01 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				02313F91289052E800C24D01 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		02313F9F2890532800C24D01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				023B617828906D01007D6BCD /* Converter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		02313FA02890533800C24D01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		02313FA12890533D00C24D01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02313FA22890535D00C24D01 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				02313F8E289052E800C24D01 /* Main.storyboard */,
+				02313F93289052E800C24D01 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02313F8D289052E800C24D01 /* ViewController.swift in Sources */,
+				02313FA42890582600C24D01 /* Funds.swift in Sources */,
 				02313F89289052E800C24D01 /* AppDelegate.swift in Sources */,
+				023B617928906D01007D6BCD /* Converter.swift in Sources */,
 				02313F8B289052E800C24D01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R82749YG66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/Info.plist";
+				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +377,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R82749YG66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/Info.plist";
+				INFOPLIST_FILE = "HomeWorkFor2.4Lession(Wallet)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
