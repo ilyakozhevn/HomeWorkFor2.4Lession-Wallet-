@@ -60,9 +60,6 @@
 				023B617F289113D3007D6BCD /* Views */,
 				023B617B28911216007D6BCD /* Services */,
 				023B617A28911216007D6BCD /* Storyboards */,
-				02313F8C289052E800C24D01 /* ViewController.swift */,
-				02313F8E289052E800C24D01 /* Main.storyboard */,
-				02313F93289052E800C24D01 /* LaunchScreen.storyboard */,
 				023B617E28911218007D6BCD /* App */,
 				023B617D28911217007D6BCD /* Resourses */,
 				023B617C28911217007D6BCD /* Model */,
@@ -73,6 +70,8 @@
 		023B617A28911216007D6BCD /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				02313F8E289052E800C24D01 /* Main.storyboard */,
+				02313F93289052E800C24D01 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -119,6 +118,7 @@
 		023B61802891143F007D6BCD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				02313F8C289052E800C24D01 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
